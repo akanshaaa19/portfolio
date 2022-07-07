@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/About.css'
 import image from '../assests/me.jpg';
+import resume from '../assests/akansha_resume.pdf';
 
 function About(){
     return(
@@ -15,7 +16,7 @@ function About(){
                 I am someone who loves to take up new challenges and learn new skills. Along with all this I like taking part in Hackathons, meet new people and exchange different ideas.
                 </p>
 
-            <a href="assets/akansha_resume.pdf" download="akanshaResume"><button className="download-btn btn btn-outline-light">Resume <i className="fas fa-download"></i></button></a>
+            <a href={resume} download="akanshaResume"><button className="download-btn btn btn-outline-light">Resume <i className="fas fa-download"></i></button></a>
 
             </div>
 
