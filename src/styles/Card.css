@@ -1,0 +1,71 @@
+.project-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    background-color: #2424249c;
+    border-radius: 16px;
+    width:325px;
+    margin: 5px;
+    max-width: fit-content;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+    background-color: #242424;
+}
+
+.card-header {
+    margin-top: -20px;
+    display: flex;
+    padding: 1.25em 0 !important;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none !important;
+}
+
+.folder-icon i{
+    color: #64ffdb6e;
+}
+a{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+}
+
+.card-link:hover{
+    color: rgb(211, 211, 211);
+}
+
+.card-link{
+    padding: 0 5px;
+}
+
+.card-title h3{
+    font-size: 1.5rem;
+    margin: 10px 0 25px 0;
+}
+
+.card-content p{
+    padding-bottom: 40px;
+    color: rgb(230, 230, 230);
+}
+  
+
+.techStack p {
+    color: #979797;
+}
+
+@media only screen and (max-width: 768px){
+
+    .card-title h3{
+        font-size: 1.2rem;
+    }
+    .card-content p{
+        font-size: 1rem;
+    }
+    .project-card{
+        padding: 10px 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+}

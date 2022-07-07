@@ -1,0 +1,39 @@
+.sec-heading{
+    font-size: 3rem;
+    padding-bottom: 25px;
+    color: #f1f1f1;
+    font-weight: bolder;
+
+}
+
+
+#skills i{
+    padding: 20px;
+}
+
+.skill-list{
+    text-align: center;
+    padding: 30px 20px ;
+    margin: auto 10px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill-text{
+    padding-left: 200px;
+    color: #d6d6d6
+}
+
+.skill-name{
+    color: #666666;
+}
+
+@media only screen and (max-width: 768px) {
+    .skill-text{
+        padding-left: 0;
+    }
+}

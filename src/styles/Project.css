@@ -1,0 +1,28 @@
+.sec-heading{
+    font-size: 3rem;
+    padding-bottom: 25px;
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
+.project-btn{
+    text-decoration: underline;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: center;
+}
+
+.project-btn i{
+    padding: 0 10px;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #64FFDA;
+    transform: translateY(-3px);
+}
+
+
+
