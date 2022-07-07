@@ -70,4 +70,8 @@
         text-align: justify;
         font-size: 1rem;
     }
+
+    .download-btn{
+        padding: 10px 20px;
+    }
 }
