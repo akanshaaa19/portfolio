@@ -17,9 +17,9 @@ const projects = [
     },
     {
         index: 3,
-        github: "https://github.com/akanshaaa19/todo-app",
-        active: "",
-        title: "To-Do App",
+        github: "https://github.com/akanshaaa19/tasks",
+        active: "https://warm-escarpment-16353.herokuapp.com/",
+        title: "Tasks App",
         description: "In this app you can add todos, cross them off or delete them later on. You can also create diferent lists for different activities.",
         stack: "NodeJS EJS MongoDB"
     },
