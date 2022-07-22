@@ -9,11 +9,11 @@ const projects = [
     },
     {
         index: 2,
-        github: "https://github.com/akanshaaa19/notes-app",
-        active: "",
-        title: "Notes App",
-        description: "In this app you can write notes and save them as well as retrieve them later on. This stores all the notes on a database.",
-        stack: "NodeJS EJS MongoDB"
+        github: "https://github.com/akanshaaa19/portfolio",
+        active: "https://akanshaaa19.github.io/portfolio",
+        title: "Portfolio",
+        description: "A  Portfolio application built on react, which describes me, my skills, and my projects",
+        stack: "ReactJS HTML Bootstrap"
     },
     {
         index: 3,
@@ -25,13 +25,12 @@ const projects = [
     },
     // {
     //     index: 4,
-    //     github: "https://github.com/akanshaaa19/portfolio-react",
+    //     github: "https://github.com/akanshaaa19/notes-app",
     //     active: "",
-    //     title: "Portfolio",
-    //     description: "A  Portfolio application built on react, which describes me, my skills, and my projects",
-    //     stack: "ReactJS HTML Bootstrap"
+    //     title: "Notes App",
+    //     description: "In this app you can write notes and save them as well as retrieve them later on. This stores all the notes on a database.",
+    //     stack: "NodeJS EJS MongoDB"
     // }
-
-]
+    ]
 
 export default projects;
