@@ -21,6 +21,25 @@ section{
     margin: auto 0; 
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #242424;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #191A19;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }
+
 @media only screen and (max-width: 768px){
     section{
         height: 25%;
