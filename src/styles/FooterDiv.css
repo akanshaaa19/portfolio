@@ -1,0 +1,30 @@
+.footer{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+    
+    .f-connect{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 10px 0;
+    }
+    
+    .f-connect a{
+        padding: 10px;
+        text-decoration: none;
+        color: #666666;
+    }
+}
+

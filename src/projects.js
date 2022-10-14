@@ -2,10 +2,10 @@ const projects = [
     {
         index: 1,
         github: "https://github.com/akanshaaa19/weather-app",
-        active: "https://thawing-oasis-79307.herokuapp.com/",
+        active: "https://akanshaaa19.github.io/weather-app",
         title: "Weather App",
         description: "This takes a city name as an input, and returns the current temperature, the minimum and maximum temperature, pressure, humidity etc.",
-        stack: "NodeJS EJS API"
+        stack: "ReactJS Bootstrap API"
     },
     {
         index: 2,
